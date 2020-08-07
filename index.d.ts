@@ -12,7 +12,7 @@ export interface KeyMapOptions {
   action: KeyEventName;
 }
 
-export interface ExtendedKeyMapOptions extends KeyMapOptions {
+export interface ExtendedKeyMapOptions {
   sequences: Array<MouseTrapKeySequence> | Array<KeyMapOptions>;
   name?: string;
   group?: string;
